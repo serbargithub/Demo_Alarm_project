@@ -1,0 +1,1 @@
+unsigned char read_temp_dallas (unsigned char);

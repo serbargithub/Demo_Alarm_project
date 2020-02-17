@@ -1,0 +1,15 @@
+char snd_alarm_sms(char n_abon,char regim);
+void print_SMS_alarm(char num_zone,char regim);
+void snd_SMS_otchet(char type_oth);
+void snd_SMS_test(char);
+void snd_SMS_napr(void);
+void send_long_SMS(unsigned char *str,unsigned char n_abon);
+void send_sms_nastroiki(char n_abon);
+void send_sms_koordinati(char n_abon);
+void send_sms_balans(char n_abon);
+void send_sms_abonenti(char n_abon);
+void bild_sms_balans(void);
+void load_date_time(void);
+void snd_SMS_otchet_temperatura(unsigned  char n_abon);
+void send_sms_slugeb(unsigned char cod_opovesheniya,unsigned char type_oth,unsigned  char n_abon);
+void send_sms_status(unsigned char n_abon);

@@ -1,0 +1,1 @@
+void check_sms_command(void);
